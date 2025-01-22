@@ -40,16 +40,14 @@ Before you start, ensure you have met the following requirements:
   ```bash
   newman run TrelloAPIs.json -e Trelloenvironment.json -r htmlextra
 
-## Test Tasks
-**The tests are organized into collections within Postman, each focusing on specific API tasks:**
+## API requests
+**The tests are organized into collections within Postman, each focusing on specific API function:**
 
-**- CREATE Token:** Test Task for creating an authentication token.
+**-Create a Board:** This task covers the creation of a new board.
 
-**-CREATE Board:** This task covers the creation of a new board.
+**-UPDATE a Board:** Task for updating an existing board.
 
 **-GET Board:** Test Task for retrieving information about a board.
-
-**-UPDATE Board:** Task for updating an existing board.
 
 **-CREATE List:** This task covers the creation of a new list on a board.
 
@@ -101,20 +99,14 @@ The HTML reports will be available in the reports directory of this repository.
 ## Jenkins CI/CD
 The repository is configured to automate the API testing process using Jenkins for CI/CD. Jenkins pipelines are set up to trigger API tests when changes are pushed to the repository. Jenkins will run the tests, generate HTML reports, and provide feedback on the test results.
 
-## Project Structure
-
-- Trello-Apis
-- ├──  TrelloAPIs.json
-- ├──  Trelloenvironment.json 
-- ├──  Tests
-- │   └── 📜 Manual Test Cases
-- ├──  reports
-- │   ├── 📜 Newman HTMLEXTRA.html
-- │   └── 📜 Newman HTML.html
 
 ## Contact
 
-If you have any questions, suggestions, or issues related to this project, please feel free to contact us. We welcome your feedback and contributions.
-- **Email**: Mohamedbadrxd@gmail.com
+If you have any questions, suggestions, or issues related to this project, please feel free to contact me.
+- **Email**: Mohamedmag158#gmail.com
 
-Feel free to open an issue in this repository or reach out to me directly. I appreciate your interest and support!
+Thank you for your support.
+متنساش تقول يحطو التوكين بتاعتهم وال key ويجيبوها منين
+متنساش تقول انك استعملت الapi docs بتاع تريلو ويجيبوها منين
+وانك حطيت اكبر قدر ممكن من الريكوستات عشان تتاكد من الفانكيشناليتي بتاعت الapi
+وانك كل اللي بتعمله بتكريت جدول وجواها ليست وجواه كارت وجواه شيك ليست وجواه ايتم
