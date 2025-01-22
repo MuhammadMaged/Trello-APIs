@@ -1,32 +1,15 @@
-# Trello APIS Testing with Postman, Newman, and Jenkins CI/CD
+# Trello REST APIs Testing using Postman, Newman, and Jenkins CI/CD
 
-This repository is dedicated to automating the testing of Trello APIs using a comprehensive toolkit that includes Postman collections, Newman for command-line execution, and Jenkins for continuous integration and continuous delivery (CI/CD) automation. The Trello API serves as a sample platform for testing and learning, and the test modules are designed to cover a wide range of endpoints and scenarios to ensure the reliability and functionality of the API.
+This repository is specialaized in testing Trello REST APIs with differnet tools that includes : 
+- Running E2E API testing collections using **Postman**. 
+- Automation API testing with command-line using **Newman**.
+- Integrating API testing into CI/CD pipelines using **Jenkins**.
 
-## Table of Contents
-- [Technologies Used](#Technologies-Used)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Test Tasks](#test-Tasks)
-- [Generating HTML Reports](#generating-html-reports)
-- [Jenkins CI/CD](#jenkins-ci-cd)
-- [Project Structure](#Project-Structure)
-- [Contact](#Contact)
+<a href="https://www.postman.com/"><img src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" title="POSTMAN" alt="POSTMAN" width="30" height="30"/></a> ![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen) <a href="https://www.jenkins.io"><img src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" title="Jenkins" alt="Jenkins" width="50" height="50"/></a>
 
-##  Technologies Used
-<a href="https://www.postman.com/"><img src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" title="POSTMAN" alt="POSTMAN" width="40" height="40"/></a>
-<a href="https://www.jenkins.io"><img src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" title="Jenkins" alt="Jenkins" width="40" height="40"/></a>
-![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
-## Features
-- Detailed and organized API test suites.
-- Test cases covering various endpoints, HTTP methods, and scenarios using Google sheets.
-- Exported Postman collection for manual testing and integration into CI/CD pipelines.
-- Automation of API testing through cmd and Jenkins.
-- Continuous integration (CI) and continuous delivery (CD) setup instructions.
 
-## Prerequisites
-Before you begin, ensure you have met the following requirements:
+## Preconditions
+Before you start, ensure you have met the following requirements:
 
 - **Postman**: You need to have Postman installed. If you don't have it, you can download it from [Postman Downloads](https://www.postman.com/downloads/).
 
