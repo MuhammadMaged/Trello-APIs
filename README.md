@@ -17,11 +17,11 @@ Before you start, Ensure you have met the following requirements:
 
 - **Trello**:
   
-   Make sure that you have an existing Trello account.
+  1. Make sure that you have an existing Trello account.
   
-   Generating your API key via Trello Power-Up Admin Portal.
+  2. Generating your API key via Trello Power-Up Admin Portal.
   
-   Generating your API Token.
+  3. Generating your API Token.
 
 - **Postman**:
   
@@ -92,23 +92,26 @@ Before you start, Ensure you have met the following requirements:
 1. Open Postman.
 2. Import the Postman Collection.json file.
 3. Import Environment.json file and set it as the current environment or create your own environment file.
-4. Enter your own API Key as an environment variable
-5. Enter your own API Token as an environment variable
+4. Enter your own API Key as an environment variable.
+5. Enter your own API Token as an environment variable.
 6. Run the API tests using Postman's collection runner.
 
-**Running Tests via Command Line using Newman**
+**Automation running Tests via Command Line using Newman**
 
 - You can also run the tests via the command line using Newman. Use the following command to run a specific test suite, specifying the environment:
   
   ```bash
-  newman run TrelloAPIs.json -e Trelloenvironment.json -r htmlextra
+  newman run TrelloAPIs.json -e Trelloenvironment.json 
 
 
 
 ## Generating HTML Reports
 Newman supports multiple reporters, including htmlextra, which generates detailed HTML reports for your API test runs. To generate HTML reports, simply specify the -r htmlextra option when running Newman, as shown in the example above.
 
-The HTML reports will be available in the reports directory of this repository.
+The HTML reports will be available in the reports directory of this repository
+
+
+
 
 ## Jenkins CI/CD
 The repository is configured to automate the API testing process using Jenkins for CI/CD. Jenkins pipelines are set up to trigger API tests when changes are pushed to the repository. Jenkins will run the tests, generate HTML reports, and provide feedback on the test results.
