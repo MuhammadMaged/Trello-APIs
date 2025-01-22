@@ -1,0 +1,111 @@
+{
+	"id": "647a18e6-06bb-4a94-ba1d-e9598f300193",
+	"name": "Trello",
+	"values": [
+		{
+			"key": "Trello_url",
+			"value": "https://api.trello.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "key",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "BoardName",
+			"value": "Courses",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "UpdatedBoardName",
+			"value": "Updated Courses",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ListName",
+			"value": "Testing Course",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "UpdatedListName",
+			"value": "Updated Testing Course",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "CardName",
+			"value": "ISTQB FL",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "UpdatedCardName",
+			"value": "Updated ISTQB FL",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ChecklistName",
+			"value": "Session1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "UpdatedChecklist",
+			"value": "Updated Session1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ItemName",
+			"value": "Test Plan",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "BoardID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ListID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "CardID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ChecklistID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ItemID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-01-22T00:15:36.341Z",
+	"_postman_exported_using": "Postman/11.29.2"
+}
