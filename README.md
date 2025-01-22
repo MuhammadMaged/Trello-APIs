@@ -23,7 +23,7 @@ Before you start, ensure you have met the following requirements:
 - Clone this repository to your local machine:
 
   ```bash
-  git clone https://github.com/Mochxd/Trello-Apis.git
+  git clone https://github.com/MuhammadMaged/Trello-APIs.git
 
 ## Usage
 
