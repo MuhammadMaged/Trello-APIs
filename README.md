@@ -11,33 +11,19 @@ This repository is specialaized in testing Trello REST APIs with differnet tools
 ## Preconditions
 Before you start, ensure you have met the following requirements:
 
-- **Postman**: You need to have Postman installed. If you don't have it, you can download it from [Postman Downloads](https://www.postman.com/downloads/).
+- **Postman**: You need to have Postman installed or open it through out any browser.
 
-- **Newman**: You can install Newman using Node.js. Make sure you have Node.js installed, and then run the following command:
+- **Newman**: Make sure you have Node.js installed first,then run the following command to install Newman:
 
   ```bash
   npm install -g newman
 
-- **Jenkins**: You will need a Jenkins server set up for CI/CD automation. You can install Jenkins following the instructions on the Jenkins website.
-
-## Installation
-
-- Install the project dependencies:
-  ```bash
-  Install Postman
-  Install Newman
-  Install newman-reporter-htmlextra
-  Install Java
+- **Jenkins**: You need a Jenkins server set up for CI/CD integration. You can install Jenkins following the instructions on the Jenkins website.
 
 - Clone this repository to your local machine:
 
   ```bash
   git clone https://github.com/Mochxd/Trello-Apis.git
-
-- Navigate to the project directory:
-
-  ```bash
-  cd Trello-Apis
 
 ## Usage
 
